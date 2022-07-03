@@ -2,7 +2,6 @@
   width: 1440px;
   margin: 0 auto;
   padding: 0 15px;
-  background-color: var(--cl-lightgray);
   height: calc(100vh - 71px);
 }
 
