@@ -1,0 +1,14 @@
+.planet {
+  position: absolute;
+  transform: rotate(-25deg);
+  margin: 0;
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: 30px -30px 100px 2px #000 inset, 0 0 20px 2px #000 ;
+  animation: spin 5s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes spin {
+  100%{background-position: 57.5%;}
+}

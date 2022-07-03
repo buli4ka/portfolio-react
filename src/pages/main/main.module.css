@@ -1,8 +1,28 @@
 .container{
+  position: relative;
   width: 100%;
   height: 100%;
   background-image: url("https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/bbbf2a17-987c-4fe6-b190-ac8fe0e235e9");
   margin: 0;
   box-shadow: -10px 10px 50px #536872 inset;
 
+}
+
+.planetPosition {
+  z-index: 5;
+  top: 45%;
+  right: 0;
+  bottom: 0;
+  left: 25%;
+  width: 400px;
+  height: 370px;
+}
+
+.moonPosition{
+  /*top: 45%;*/
+  /*right: 0;*/
+  /*bottom: 0;*/
+  /*left: 25%;*/
+  width: 120px;
+  height: 120px;
 }
